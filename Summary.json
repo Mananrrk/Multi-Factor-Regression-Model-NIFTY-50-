@@ -1,0 +1,24 @@
+{
+    "model": "Ridge Regression",
+    "period": "Jan 2025 – Dec 2025",
+    "features": [
+        "India_VIX",
+        "USD_INR"
+    ],
+    "metrics": {
+        "r_squared": 0.42,
+        "adjusted_r_squared": 0.36,
+        "rmse": 0.0387,
+        "correlation_actual_vs_predicted": 0.65
+    },
+    "coefficients": {
+        "India_VIX": -0.0123,
+        "USD_INR": 0.0098,
+        "Intercept": 0.0011
+    },
+    "total_factor_contribution": {
+        "India_VIX": -0.0845,
+        "USD_INR": 0.0621,
+        "Intercept": 0.0066
+    }
+}
